@@ -1,0 +1,40 @@
+.register_form{
+    background-color: aqua;
+    text-align: left;
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+}
+#register{
+    background-color: blueviolet;
+    padding: 14px;
+    width: 600px;
+    border-radius: 14px;
+}
+input[type="text"], input[type="number"],input[type="password"], input[type="E-mail Address"],select{
+    background-color: wheat;
+font-size: 15px;
+padding: 8px;
+border-radius: 7px;
+width: 95%;
+}
+input[type="Submit"]{
+    width: 85%;
+    font-size: 20px;
+    padding: 7px;
+    background-color: green;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+input[type="Submit"]:hover{
+    background-color: blue;
+    color: black;
+    font-style: italic;
+}
+label{
+    font-size: 20px;
+    padding: 15px;
+} 
